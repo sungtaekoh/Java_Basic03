@@ -3,7 +3,7 @@ package day07_Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Quiz_3 {//정담지
+public class Quiz03_3 {//정담지
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		ArrayList name = new ArrayList();
