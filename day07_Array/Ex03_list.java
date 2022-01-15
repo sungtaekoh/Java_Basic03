@@ -19,7 +19,7 @@ public class Ex03_list {
 		ArrayList arr = new ArrayList();
 		
 		arr.add("123");
-		arr.add("456");
+		arr.add(456);
 		
 		
 		System.out.println(arr.get(0));

@@ -8,7 +8,7 @@ public class Ex04_list {
 		Scanner input = new Scanner(System.in);
 		ArrayList arr = new ArrayList();
 		int num=0;
-		String addNum, printNum;
+		String addNum;
 		System.out.println("만들 공간의 개수 입력 : ");
 		num = input.nextInt();
 		for(int i=0; i<num; i++) {

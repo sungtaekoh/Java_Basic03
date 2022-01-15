@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Quiz03_1 {
-	public static void main(String[] args) {
+	public static void main(String[] args) {//이번 클래스 실패
 		Scanner input = new Scanner(System.in);
 		ArrayList telName = new ArrayList();
 		ArrayList telNum = new ArrayList();
