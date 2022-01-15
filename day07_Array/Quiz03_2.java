@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Quiz03_2 {
+public class Quiz03_2 {//실패
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		ArrayList telNum = new ArrayList(); //전화번호부 번호 
@@ -34,7 +34,7 @@ public class Quiz03_2 {
 				System.out.println("성공적으로 저장 되었습니다!!");
 			}else if(choice == 2) {//연락처 보기
 				System.out.println("찾을 이름 입력 : ");
-				
+				name = input.next();
 			}else if (choice == 3) {//연락처 삭제
 				System.out.println("삭제할 ");
 			}else if(choice == 4) {//모든 연락처 보기
