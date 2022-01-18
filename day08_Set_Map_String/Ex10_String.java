@@ -19,6 +19,7 @@ public class Ex10_String {
 		inputId = inputId.trim();
 		System.out.println(inputId.equals(saveId));
 		
+		System.out.println("-------------------------");
 		String[] split = result.split(" ");
 		//스플릿 : 공백을 기준으로 잘라라
 		System.out.println(split[0]);

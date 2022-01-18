@@ -29,24 +29,31 @@ public class Ex04_Map {
 		
 		System.out.println(map);
 		
+		System.out.println("-------------------------------");
 		System.out.println(map.get("선풍기"));//키를 통해서 value값을 출력.
 		System.out.println(map.get("자동차"));
 		System.out.println(map.get("에어컨"));
 		System.out.println(map.get("없는키"));//없는키는 null로 표기된다.
+		System.out.println("------------------------------------");
 		
+		System.out.println("--------------------------------------");
 		System.out.println(map.containsKey("에어컨"));//키에 해당하는 벨류값이 존재하는지 참, 커짓으로 표기
 		System.out.println(map.containsKey("에어컨111"));
+		System.out.println("----------------------------------------");
 		
+		System.out.println("----------------------------------------");
 		System.out.println(map.containsValue("30만원"));//true
 		System.out.println(map.containsValue("31만원"));//false
 		//해당하는 벨류에 존재하는 키가 있는지 참, 거짓으로 표기
 		
+		System.out.println("-------------------------------------");
 		System.out.println(map.remove("에어컨")); //해당하는 키 삭제
 		System.out.println(map.containsKey("에어컨"));//삭제가 잘 되었는지 확인
 		System.out.println(map);//전부 출력해서 확인
 		
 		System.out.println(map.keySet());//해당하는 (키들만)을 전부 표기
 		
+		System.out.println("--------------------------------------");
 //		Set s = map.keySet(); //mep.keySet();은 Set으로 받아주어야 한다
 //		Iterator it = s.iterator();
 		Iterator it = map.keySet().iterator();
