@@ -22,6 +22,7 @@ public class Quiz02_2 {
 			num = input.nextInt();
 			switch(num) {
 			case 1: //메뉴 등록
+				
 				break; 
 			case 2:// 메뉴별 가격 보기
 				break;
