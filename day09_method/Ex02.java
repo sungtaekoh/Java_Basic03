@@ -3,6 +3,16 @@ package day09_method;
 public class Ex02 {
 	public static void main(String[] args) {
 		Ex02Method ex = new Ex02Method();
+		/*
+		 int, void 등.. : 반환타입
+		 test : 메소드 이름(사용자 지정)
+		 int n : 매개변수(아규먼트)
+		 return n : 돌려주고자 하는 값. 또는 해당 메소드를 종료할 때 사용 
+		 public int test(int n){
+		 	긴으 코드 구현
+		 	return n;
+		 }
+		 */
 		
 		ex.test();
 		//Ex02Method 클래스에 있는 test 기능을 가져다 사용한다
