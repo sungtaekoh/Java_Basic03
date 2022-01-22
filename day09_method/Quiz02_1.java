@@ -44,9 +44,9 @@ public class Quiz02_1 {
 			return 1;
 		}
 	}
-	public void 출력(String result) { //실제로는 한글로 만들면 안된다 이건 예시
-		System.out.println();
-	}
+//	public void 출력(String result) { //실제로는 한글로 만들면 안된다 이건 예시
+//		System.out.println();
+//	}
 	
 	
 }

@@ -9,7 +9,7 @@ public class Ex02 {
 		 int n : 매개변수(아규먼트)
 		 return n : 돌려주고자 하는 값. 또는 해당 메소드를 종료할 때 사용 
 		 public int test(int n){
-		 	긴으 코드 구현
+		 	기능 코드 구현
 		 	return n;
 		 }
 		 */

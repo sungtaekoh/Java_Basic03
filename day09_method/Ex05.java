@@ -16,9 +16,10 @@ public class Ex05 {
 		
 		System.out.println("=========================================================");
 		ex.test(1);
+		ex.test(2);
 		
 		System.out.println("=========================================================");
-		ex.test(2);
+		
 		String ss = ex.test02();
 		System.out.println(ss);
 		System.out.println(ex.test02());
