@@ -3,7 +3,7 @@ package day10_ClassVariable;
 public class Ex02_Random {
 	public static void main(String[] args) {
 		for(int i =0; i<5;i++) {
-			int ran = (int)(Math.random()*3)+10;
+			int ran = (int)(Math.random()*3);//+10;
 			System.out.println(ran);
 //			System.out.println((int)(Math.random()*3)+1);//1~3까지의 범위의 수를 구한다
 			/*
