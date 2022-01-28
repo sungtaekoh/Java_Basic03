@@ -38,7 +38,7 @@ public class Quiz01 {
 			
 			switch(sel) {
 			case 1:
-				com = updown.ranNum();
+				com = updown.ranNum();//1~99 숫자 저장
 				System.out.println("컴퓨터 숫자 : "+com);
 				dummy = 3;
 				while(true)
