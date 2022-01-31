@@ -11,11 +11,11 @@ public class Ex01_MainClass {
 		Ex01_This ex01 = ex;
 		
 //		System.out.println("ex : "+ex);//위치 정보가 나온다
-//		System.out.println("ex01 : "+ex);
+//		System.out.println("ex01 : "+ex01);
 		
 //		ex.a = 7777;
 		ex.func01();
-//		ex.func02();
+		ex.func02();
 //		ex01.func01();
 		
 	}

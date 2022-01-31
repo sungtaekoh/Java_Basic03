@@ -4,7 +4,7 @@ public class Ex09_String {
 
 	public static void main(String[] args) {
 		String str = new String("abcdefg");
-		System.out.println(str.length());
+		System.out.println(str.length());//글자 수 알려준다
 		
 		System.out.println(str.charAt(2));
 		//해당하는 인덱스 순번에 있는 글자를 출력 인덱스는 0부터 센다
