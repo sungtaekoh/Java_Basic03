@@ -34,4 +34,12 @@ public class Ex03_set_get {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public int getNum() {
+		return num;
+	}
+	
+	public String getName() {//private 값을 불러오는 기능
+		return name;
+	}
 }
