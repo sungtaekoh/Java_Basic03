@@ -2,7 +2,6 @@ package day11_set_get;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class Quiz01_1Method {
 	Scanner input = new Scanner(System.in);
 		private ArrayList saveId = new ArrayList();
