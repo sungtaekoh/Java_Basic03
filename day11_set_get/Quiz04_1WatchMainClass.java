@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.Set;
 /*
   시간 -시,분,초 설정 + 알람설정, 알람울림
-  날짜 -년,월,일 설정 + 일정설정, 일정알람
+  날짜 -년,월,일 설정 + 일정설정, 일정알람(+알람메모기능도 추가하면 좋을것 같다.)
  */
 public class Quiz04_1WatchMainClass {
 	public static void main(String[] args) {
