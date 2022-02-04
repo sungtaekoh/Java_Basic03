@@ -17,9 +17,9 @@ public class Ex01 {
 //		 조건 : 영어는 맞아야한다
 		 
 		 String str = s.format(time);
-		 System.out.println(str);
+		 System.out.println("time : "+str);
 				 
-		 
+		 System.out.println("================================================");
 		 Date d = new Date();
 		 //util에 있는 date사용 	날자 정보
 
@@ -27,6 +27,7 @@ public class Ex01 {
 		 System.out.println("format(d) : "+s.format(d));
 //		 s.format아까 만든 틀을 사용하여 출력값을 내가 보기 편한방법으로 만들 수 있다.
 		 
+		 System.out.println("===============================================");
 		 
 		 Calendar cal = Calendar.getInstance();
 		 System.out.println("cal : "+cal);//객체 크게 신경 안 써도 된다.
