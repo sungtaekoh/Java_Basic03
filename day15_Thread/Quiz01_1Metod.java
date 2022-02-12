@@ -1,11 +1,60 @@
 package day15_Thread;
 
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
 public class Quiz01_1Metod {
 	
+}
+
+class Timer{
+	public void timerDisplay() {
+		//프레임 
+				JFrame frame = new JFrame("Sungtaek's Timer");//jframe 만들기
+				Container con = frame.getContentPane();//컨테이너 깔기
+				frame.setPreferredSize(new Dimension(700, 200));//창크기
+				frame.pack(); //크기 변경저장
+				
+				JLabel lable = new JLabel();//라벨 만들기
+				con.add(lable);
+				
+				frame.setVisible(true);//창 띄움
+				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//창 닫기 할때 콘솔종료
+				
+				Font font = new Font("Tempus San ITC", Font.ITALIC, 32);
+				//(글꼴 , 글자 스타일, 폰트크기)
+				
+				lable.setFont(font);
+				
+				//시간기능
+				SimpleDateFormat s = 
+						new SimpleDateFormat("yyyy년 MM월 dd일 aa hh시 mm분 ss초");
+				
+				String str = null;
+				
+				for(int i=0; ;i++) {
+					try {
+						Thread.sleep(100);
+						Date d = new Date();
+						str = s.format(d);
+						lable.setText(str);
+//						System.out.println(str);
+					}catch (Exception e) {
+						// TODO: handle exception
+					}
+				}
+				
+				
+	}
 }
 
 class Win7{
@@ -61,8 +110,10 @@ class Win7{
 
 
 
-class LoginGame extends Win7{
+class LoginGame {
 	Scanner input = new Scanner(System.in);
+	Timer t = new Timer();
+	Win7 win7 = new Win7();
 	
 	ArrayList saveId = new ArrayList();
 	ArrayList savePw = new ArrayList();
@@ -96,7 +147,11 @@ class LoginGame extends Win7{
 		pw = input.next();
 		if(saveId.indexOf(id) != -1 && savePw.indexOf(pw) != -1) {
 			System.out.println("로그인에 성공하셨습니다");
-			win7Display();
+			
+			//두개 중 한개읨 메소드만 작동한다.. 왜..??
+			win7.win7Display();
+			t.timerDisplay();
+			
 		}else {
 			System.out.println("로그인에 실패하셨습니다.");
 		}
