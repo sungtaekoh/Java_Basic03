@@ -11,12 +11,12 @@ import java.util.Scanner;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
+//오답 : 다시풀기
 public class Quiz01_1Metod {
 	
 }
 
-class Timer{
+class Timer extends Thread{
 	public void timerDisplay() {
 		//프레임 
 				JFrame frame = new JFrame("Sungtaek's Timer");//jframe 만들기
@@ -57,7 +57,7 @@ class Timer{
 	}
 }
 
-class Win7{
+class Win7 extends Thread{
 	
 	public void win7Display() {
 	
