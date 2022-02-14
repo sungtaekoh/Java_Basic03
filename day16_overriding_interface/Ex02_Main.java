@@ -7,8 +7,9 @@ class AA extends ArrayList{
 		System.out.println("나만의 기능입니다");
 	}
 	
-	public Object get(int modCount) {
-		return super.get(modCount);
+	@Override
+	public Object get(int i) {
+		return "내가만든 get이다";
 	}
 }
 public class Ex02_Main {
