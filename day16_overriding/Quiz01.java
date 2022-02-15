@@ -23,7 +23,9 @@ class TimerQuiz extends Thread{ //다중 상송이 안되서 TimerQuiz에 상속시켰다
 		date = new Date();
 		simpl = new SimpleDateFormat("yyyy년 MM월 dd일 aa hh시 mm분 ss초");
 	}
-	public String getDate() {return simpl.format(date);}
+	public String getDate() {
+		return simpl.format(date);
+		}
 	public void time() {
 		for(int i=0;i<10;i++) {
 			setDate();
@@ -48,6 +50,9 @@ class Win7Quiz extends TimerQuiz{
 		info[0] = cPath;
 		info[1] = mPath;
 	}
+	public String[] getName1() {return name;}
+	public String[] getInfo() {return info;}
+	
 	public void function(String funcName) {
 		String[] name = getName1();
 		String[] info = getInfo();
@@ -69,8 +74,7 @@ class Win7Quiz extends TimerQuiz{
 		}
 		System.out.println();
 	}
-	public String[] getName1() {return name;}
-	public String[] getInfo() {return info;}
+	
 	public void display() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("===== 환영합니다 ======");
