@@ -1,4 +1,4 @@
-package day16_overriding_interface;
+package day16_overriding;
 
 public class NewFerrari extends Ferrari {
 	public NewFerrari(int ye, int speed) {

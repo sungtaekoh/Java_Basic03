@@ -1,4 +1,4 @@
-package day16_overriding_interface;
+package day16_overriding;
 
 public class Ex01_Main {
 	public static void main(String[] args) {

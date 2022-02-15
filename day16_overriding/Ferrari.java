@@ -1,4 +1,4 @@
-package day16_overriding_interface;
+package day16_overriding;
 
 public class Ferrari {
 	private int ye, speed;
