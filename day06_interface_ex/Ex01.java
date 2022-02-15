@@ -1,4 +1,4 @@
-package interface_ex;
+package day06_interface_ex;
 
 class A지상군{
 	public void 공격() {

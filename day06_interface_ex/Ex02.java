@@ -1,4 +1,4 @@
-package interface_ex;
+package day06_interface_ex;
 
 import java.util.Scanner;
 

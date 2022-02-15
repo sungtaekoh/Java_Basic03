@@ -1,4 +1,4 @@
-package interface_ex;
+package day06_interface_ex;
 
 public interface A°ø¹æ {
 	public void attack();
