@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 class win7{
-	public void win7Display(){
+	public static void win7Display(){
 		Scanner input = new Scanner(System.in);
 		HashMap map = new HashMap();
 		
@@ -23,6 +23,7 @@ class win7{
 			case 1://기능
 				System.out.println("[사용가능]");
 				System.out.println("계산기 메모장");
+				System.out.println("사용할 기능 입력 : ");
 				s = input.next();
 				if(map.containsKey(s)==true) {
 					ProcessBuilder pro 
@@ -41,7 +42,7 @@ class win7{
 		}
 	}
 }
-public class day15Quiz01_2MainClass {
+public class day15Quiz01_2MainClass extends win7{
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
@@ -64,6 +65,7 @@ public class day15Quiz01_2MainClass {
 				pw = input.next();
 				if(saveId.indexOf(id)!= -1 && savePw.indexOf(pw) != -1) {
 					System.out.println("인증 통과");
+					win7Display();
 				}else {
 					System.out.println("인증 불가");
 				}
