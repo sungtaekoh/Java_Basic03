@@ -22,9 +22,9 @@ public class Ex01 {
 			
 			result = x/y;
 			System.out.println("x / y ="+result);
-		}catch (ArithmeticException e) {
-			System.out.println("0으로 나눈ㄹ 수없습니다");
-		}catch(InputMismatchException e) {
+		}catch (ArithmeticException e) {//연산시 에러
+			System.out.println("0으로 나눌 수 없습니다");
+		}catch(InputMismatchException e) {//스케너 에러
 			System.out.println("문자를 입력 할 수 없습니다");
 		}
 		System.out.println("다음 문장들 실행~");
